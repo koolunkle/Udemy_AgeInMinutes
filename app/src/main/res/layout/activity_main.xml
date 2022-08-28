@@ -52,7 +52,7 @@
             app:layout_constraintTop_toBottomOf="@id/txtAge" />
 
         <Button
-            android:id="@+id/btn_select_date"
+            android:id="@+id/btnDatePicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/buttonBackgroundColor"
@@ -74,7 +74,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_select_date" />
+            app:layout_constraintTop_toBottomOf="@id/btnDatePicker" />
 
 
         <TextView
